@@ -141,7 +141,7 @@ class bikesController extends Controller
         $path= str_replace('\\','/',public_path());
 
         $input = $request->all();
-        dd($input);
+        // dd($input);
     //     $old= $request->old_photos;
     //     $user = Auth::user();
     //     if($request->hasFile('photo_id')){
